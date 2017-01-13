@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2AFED21E298AE800CCB774 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2AFED11E298AE800CCB774 /* AppDelegate.swift */; };
+		FA2AFED41E298AE800CCB774 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2AFED31E298AE800CCB774 /* ViewController.swift */; };
+		FA2AFED71E298AE800CCB774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2AFED51E298AE800CCB774 /* Main.storyboard */; };
+		FA2AFED91E298AE800CCB774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2AFED81E298AE800CCB774 /* Assets.xcassets */; };
+		FA2AFEDC1E298AE800CCB774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2AFEDA1E298AE800CCB774 /* LaunchScreen.storyboard */; };
+		FA2AFEE71E298AE800CCB774 /* ReservationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2AFEE61E298AE800CCB774 /* ReservationsTests.swift */; };
+		FA2AFEF21E298AE800CCB774 /* ReservationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2AFEF11E298AE800CCB774 /* ReservationsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA2AFEE31E298AE800CCB774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2AFEC61E298AE500CCB774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2AFECD1E298AE500CCB774;
+			remoteInfo = Reservations;
+		};
+		FA2AFEEE1E298AE800CCB774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2AFEC61E298AE500CCB774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2AFECD1E298AE500CCB774;
+			remoteInfo = Reservations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA2AFECE1E298AE800CCB774 /* Reservations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reservations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2AFED11E298AE800CCB774 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA2AFED31E298AE800CCB774 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA2AFED61E298AE800CCB774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA2AFED81E298AE800CCB774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA2AFEDB1E298AE800CCB774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA2AFEDD1E298AE800CCB774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2AFEE21E298AE800CCB774 /* ReservationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReservationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2AFEE61E298AE800CCB774 /* ReservationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsTests.swift; sourceTree = "<group>"; };
+		FA2AFEE81E298AE800CCB774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2AFEED1E298AE800CCB774 /* ReservationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReservationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2AFEF11E298AE800CCB774 /* ReservationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsUITests.swift; sourceTree = "<group>"; };
+		FA2AFEF31E298AE800CCB774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2AFECB1E298AE500CCB774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2AFEDF1E298AE800CCB774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2AFEEA1E298AE800CCB774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2AFEC51E298AE500CCB774 = {
+			isa = PBXGroup;
+			children = (
+				FA2AFED01E298AE800CCB774 /* Reservations */,
+				FA2AFEE51E298AE800CCB774 /* ReservationsTests */,
+				FA2AFEF01E298AE800CCB774 /* ReservationsUITests */,
+				FA2AFECF1E298AE800CCB774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2AFECF1E298AE800CCB774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2AFECE1E298AE800CCB774 /* Reservations.app */,
+				FA2AFEE21E298AE800CCB774 /* ReservationsTests.xctest */,
+				FA2AFEED1E298AE800CCB774 /* ReservationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2AFED01E298AE800CCB774 /* Reservations */ = {
+			isa = PBXGroup;
+			children = (
+				FA2AFED11E298AE800CCB774 /* AppDelegate.swift */,
+				FA2AFED31E298AE800CCB774 /* ViewController.swift */,
+				FA2AFED51E298AE800CCB774 /* Main.storyboard */,
+				FA2AFED81E298AE800CCB774 /* Assets.xcassets */,
+				FA2AFEDA1E298AE800CCB774 /* LaunchScreen.storyboard */,
+				FA2AFEDD1E298AE800CCB774 /* Info.plist */,
+			);
+			path = Reservations;
+			sourceTree = "<group>";
+		};
+		FA2AFEE51E298AE800CCB774 /* ReservationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2AFEE61E298AE800CCB774 /* ReservationsTests.swift */,
+				FA2AFEE81E298AE800CCB774 /* Info.plist */,
+			);
+			path = ReservationsTests;
+			sourceTree = "<group>";
+		};
+		FA2AFEF01E298AE800CCB774 /* ReservationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2AFEF11E298AE800CCB774 /* ReservationsUITests.swift */,
+				FA2AFEF31E298AE800CCB774 /* Info.plist */,
+			);
+			path = ReservationsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2AFECD1E298AE500CCB774 /* Reservations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2AFEF61E298AE800CCB774 /* Build configuration list for PBXNativeTarget "Reservations" */;
+			buildPhases = (
+				FA2AFECA1E298AE500CCB774 /* Sources */,
+				FA2AFECB1E298AE500CCB774 /* Frameworks */,
+				FA2AFECC1E298AE500CCB774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reservations;
+			productName = Reservations;
+			productReference = FA2AFECE1E298AE800CCB774 /* Reservations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA2AFEE11E298AE800CCB774 /* ReservationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2AFEF91E298AE800CCB774 /* Build configuration list for PBXNativeTarget "ReservationsTests" */;
+			buildPhases = (
+				FA2AFEDE1E298AE800CCB774 /* Sources */,
+				FA2AFEDF1E298AE800CCB774 /* Frameworks */,
+				FA2AFEE01E298AE800CCB774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2AFEE41E298AE800CCB774 /* PBXTargetDependency */,
+			);
+			name = ReservationsTests;
+			productName = ReservationsTests;
+			productReference = FA2AFEE21E298AE800CCB774 /* ReservationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA2AFEEC1E298AE800CCB774 /* ReservationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2AFEFC1E298AE800CCB774 /* Build configuration list for PBXNativeTarget "ReservationsUITests" */;
+			buildPhases = (
+				FA2AFEE91E298AE800CCB774 /* Sources */,
+				FA2AFEEA1E298AE800CCB774 /* Frameworks */,
+				FA2AFEEB1E298AE800CCB774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2AFEEF1E298AE800CCB774 /* PBXTargetDependency */,
+			);
+			name = ReservationsUITests;
+			productName = ReservationsUITests;
+			productReference = FA2AFEED1E298AE800CCB774 /* ReservationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2AFEC61E298AE500CCB774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Raihana A. Souleymane";
+				TargetAttributes = {
+					FA2AFECD1E298AE500CCB774 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 499HZP5KWP;
+						ProvisioningStyle = Automatic;
+					};
+					FA2AFEE11E298AE800CCB774 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 499HZP5KWP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA2AFECD1E298AE500CCB774;
+					};
+					FA2AFEEC1E298AE800CCB774 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 499HZP5KWP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA2AFECD1E298AE500CCB774;
+					};
+				};
+			};
+			buildConfigurationList = FA2AFEC91E298AE500CCB774 /* Build configuration list for PBXProject "Reservations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2AFEC51E298AE500CCB774;
+			productRefGroup = FA2AFECF1E298AE800CCB774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2AFECD1E298AE500CCB774 /* Reservations */,
+				FA2AFEE11E298AE800CCB774 /* ReservationsTests */,
+				FA2AFEEC1E298AE800CCB774 /* ReservationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2AFECC1E298AE500CCB774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2AFEDC1E298AE800CCB774 /* LaunchScreen.storyboard in Resources */,
+				FA2AFED91E298AE800CCB774 /* Assets.xcassets in Resources */,
+				FA2AFED71E298AE800CCB774 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2AFEE01E298AE800CCB774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2AFEEB1E298AE800CCB774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2AFECA1E298AE500CCB774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2AFED41E298AE800CCB774 /* ViewController.swift in Sources */,
+				FA2AFED21E298AE800CCB774 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2AFEDE1E298AE800CCB774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2AFEE71E298AE800CCB774 /* ReservationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2AFEE91E298AE800CCB774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2AFEF21E298AE800CCB774 /* ReservationsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA2AFEE41E298AE800CCB774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2AFECD1E298AE500CCB774 /* Reservations */;
+			targetProxy = FA2AFEE31E298AE800CCB774 /* PBXContainerItemProxy */;
+		};
+		FA2AFEEF1E298AE800CCB774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2AFECD1E298AE500CCB774 /* Reservations */;
+			targetProxy = FA2AFEEE1E298AE800CCB774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA2AFED51E298AE800CCB774 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2AFED61E298AE800CCB774 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA2AFEDA1E298AE800CCB774 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2AFEDB1E298AE800CCB774 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA2AFEF41E298AE800CCB774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA2AFEF51E298AE800CCB774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2AFEF71E298AE800CCB774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 499HZP5KWP;
+				INFOPLIST_FILE = Reservations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RaihanaSouleymane.Reservations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA2AFEF81E298AE800CCB774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 499HZP5KWP;
+				INFOPLIST_FILE = Reservations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RaihanaSouleymane.Reservations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FA2AFEFA1E298AE800CCB774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 499HZP5KWP;
+				INFOPLIST_FILE = ReservationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RaihanaSouleymane.ReservationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reservations.app/Reservations";
+			};
+			name = Debug;
+		};
+		FA2AFEFB1E298AE800CCB774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 499HZP5KWP;
+				INFOPLIST_FILE = ReservationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RaihanaSouleymane.ReservationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reservations.app/Reservations";
+			};
+			name = Release;
+		};
+		FA2AFEFD1E298AE800CCB774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 499HZP5KWP;
+				INFOPLIST_FILE = ReservationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RaihanaSouleymane.ReservationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Reservations;
+			};
+			name = Debug;
+		};
+		FA2AFEFE1E298AE800CCB774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 499HZP5KWP;
+				INFOPLIST_FILE = ReservationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RaihanaSouleymane.ReservationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Reservations;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2AFEC91E298AE500CCB774 /* Build configuration list for PBXProject "Reservations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2AFEF41E298AE800CCB774 /* Debug */,
+				FA2AFEF51E298AE800CCB774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2AFEF61E298AE800CCB774 /* Build configuration list for PBXNativeTarget "Reservations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2AFEF71E298AE800CCB774 /* Debug */,
+				FA2AFEF81E298AE800CCB774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA2AFEF91E298AE800CCB774 /* Build configuration list for PBXNativeTarget "ReservationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2AFEFA1E298AE800CCB774 /* Debug */,
+				FA2AFEFB1E298AE800CCB774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA2AFEFC1E298AE800CCB774 /* Build configuration list for PBXNativeTarget "ReservationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2AFEFD1E298AE800CCB774 /* Debug */,
+				FA2AFEFE1E298AE800CCB774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2AFEC61E298AE500CCB774 /* Project object */;
+}
